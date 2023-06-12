@@ -35,4 +35,9 @@ git commit
 
 Aca falta mas codigo
 
+git branch
 
+git checkout -b ramab
+
+# Desde Rama master
+ git merge ramab
