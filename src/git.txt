@@ -1,0 +1,38 @@
+Comandos git
+
+git --version
+
+git config --global user.name "Matias Glienke"
+git config --global user.email "matiasglienke@gmail.com"
+git config --global core.editor "code --wait"
+
+git config --global -e
+
+## Configuracion de Salto de Linea
+# cr / lf
+
+git config --global core.autocrlf input
+
+## Help
+git config -h
+
+#  Nos posicionamos en el proyecto ..
+git init
+
+touch archivo1.txt
+git add archivo1.txt
+
+touch archivo2.txt
+git add archivo2.txt
+
+touch archivo3.txt
+git add archivo3.txt
+
+git commit -m "Commit Inicial"
+# Abre el editor que configuramos
+git commit
+
+
+Aca falta mas codigo
+
+
